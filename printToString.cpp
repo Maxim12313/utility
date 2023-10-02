@@ -1,18 +1,33 @@
 #include <iostream>
- using namespace std;
+#include <vector>
+using namespace std;
 
 int main() {
-    string output;
+    vector<string> output1;
+    string output2 = "\"";
     string next;
     while (getline(cin, next)) {
         if (next == "stop") break;
-        output.append(next);
-        output.append("\\n");
+        string adder = "<< \"";
+        adder.append(next).append("\\n\"");
+        output1.push_back(adder);
+
+        output2.append(next).append("\\n");
         // cout << "output: " << output << endl;
     }
+
+    output2.append("\"");
     
-    cout << "----------output------------" << endl;
-    cout << output << endl;
+    cout << "----------ostringstream output------------" << endl;
+    for (int i = 0; i < output1.size(); i++) {
+        const string &val = output1[i];
+        if (i == output1.size() - 1) 
+            cout << val << ";" << endl;
+        else
+            cout << val << endl;
+    }
+    // cout << "----------istringstream output------------" << endl;
+    // cout << output2 << endl;
 }
 
 
