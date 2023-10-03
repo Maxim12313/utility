@@ -9,7 +9,8 @@ This program is meant to format human readable output into ostringstream and ist
 5. Paste in input
 6. Return, type "stop", return
 7. Get your outputs and choose which to copy paste
-Compile and run code:
+   
+Command to compile and run code:
 ```sh
 g++ -std=c++17 -o printToString printToString.cpp && ./printToString
 ```
