@@ -3,7 +3,7 @@ Repository for random short utility programs I write
 
 ### Using printToString 
 This program is meant to format human readable output into ostringstream and istringstream format. No more manually writing print or read string blocks.
-1. Download the cpp file
+1. Download the printToStrig.cpp file
 2. Open folder of file location in terminal
 3. Compile and run code
 5. Paste in input
