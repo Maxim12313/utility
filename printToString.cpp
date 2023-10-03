@@ -13,7 +13,7 @@ int main() {
         output1.push_back(adder);
 
         string adder2 = "\"";
-        adder2.append(next).append("\"");
+        adder2.append(next).append(" \"");
         output2.push_back(adder2);
         // cout << "output: " << output << endl;
     }
