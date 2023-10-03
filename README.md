@@ -7,7 +7,7 @@ This program is meant to format human readable output into ostringstream and ist
 2. Open folder of file location in terminal
 3. Compile and run code
 5. Paste in input
-6. Return, type "stop", return
+6. Press return, type "stop", press return
 7. Get your outputs and choose which to copy paste
    
 Command to compile and run code:
