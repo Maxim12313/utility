@@ -13,4 +13,4 @@ Compile and run code:
 ```sh
 g++ -std=c++17 -o printToString printToString.cpp && ./printToString
 ```
-![Alt text](/img/printToStringImage.png?raw=true "ostringstream formatting")
+![Alt text](/img/printToString.png?raw=true "ostringstream formatting")
